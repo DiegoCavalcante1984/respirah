@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 60px;
+    color: aliceblue;
+    background-color: rgb(0, 148, 0);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.header a{
+   
+    color: aliceblue;
+    margin-left: 15px;
+    font-size: 40px;
+    border-radius: 50px;
+}
+.header a:hover{
+    color:rgb(198, 201, 202);
+    transition: 1s;
+}
+.menu{
+    display: flex;
+    
+}
+.menu li{
+    margin: 10px;
+    list-style: none;
+    font-size: 20px;
+    cursor:pointer;
+    text-transform: uppercase;
+}   
+
+    
+    
+    
+    
+    
+
