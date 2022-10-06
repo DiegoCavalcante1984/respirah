@@ -1,0 +1,124 @@
+@media (max-width:670px){
+  #container{
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 0 auto; 
+    width:90%; 
+  } 
+  #logo_top{
+    display: none;
+  }
+  #top{
+    display: inline-block;
+  }
+  #top nav ul{
+    display:block;
+    margin:0 auto;
+    
+    
+  }
+  #wellcome{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+    width:100%;
+  }
+  #wellcome img{
+    margin:0 auto;
+    width: 200px;
+    height: 200px;
+  }
+  #wellcome_text{
+    width:100%;
+    text-align: center;
+    padding:0px 20px;
+    
+    
+   
+  }
+  #wellcome_text h2{
+    font-size: 25px;
+  }
+  #wellcome_text p{
+    font-size:18px;
+    
+  }
+  #pratice_yoga{
+    
+    width:100%;
+    padding:0px 20px;
+    text-align: center;
+  }
+  #pratice_yoga h2{
+    font-size:25px;
+  }
+  .paragrafos{
+    width:100%;
+    margin:0 auto;
+}
+  #fitness{
+    padding-top:50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fit{
+    margin-bottom:30px;
+  }
+  #teacher article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:90%;
+    margin-top:100px;
+    
+  }  
+
+  #teacher{
+    width:100%;
+    margin:0px auto;
+    
+  }
+  #teacher_text{
+    width:100%;
+    
+  }
+  #teacher_text h1{
+    text-align: center;
+    font-size:20px;
+    
+  }
+  #teacher_text p{
+    text-align: center;
+    padding:0 20px;
+    
+    
+    
+  }
+  #prof_align{
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+  }
+ 
+  #prof_align_2{
+    display: block;
+    width:100%;
+  }
+ 
+  #prof_align_2 p{
+    text-align: center;
+    
+  }
+  #teacher_image img{
+    padding-top:10px;
+    width:90%;
+    margin-bottom:20px;
+  }
+  #contacts{
+    height:90vh;
+    padding-top:30px;
+    flex-direction: column;
+  }
+
+}
