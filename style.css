@@ -1,40 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
 *{
-    margin: 0;
-    padding: 0;
-}
-.header{
-    height: 60px;
-    color: aliceblue;
-    background-color: rgb(0, 148, 0);
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     
+}
+body{
+  background-color:#071329;
 }
 
-.header a{
-   
-    color: aliceblue;
-    margin-left: 15px;
-    font-size: 40px;
-    border-radius: 50px;
+
+#container{
+  background-color: #FFFFFF;
+  margin: 0 auto; 
+  width:90%; 
+  
 }
-.header a:hover{
-    color:rgb(198, 201, 202);
-    transition: 1s;
+#logo_top{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right:30px;
+  margin-bottom: 20px;
+ 
+  
 }
-.menu{
-    display: flex;
-    
+#logo_top img{
+  width: 60px;
+  height:60px;
+  
+  
+ 
+  
 }
-.menu li{
-    margin: 10px;
-    list-style: none;
-    font-size: 20px;
-    cursor:pointer;
-    text-transform: uppercase;
-}   
+#logo_top h2{
+  margin-bottom:10px;
+  text-align: center;
+  color: #3D61B1;
+  
+}
+#top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin:0px auto 80px auto;
+  border-bottom: 1px solid rgba(100, 104, 108, 0.295);
+  
+}
+#top nav ul{
+  display: flex;
+  margin-left: 150px;
+  padding-bottom: 20px;
+  
+  
+}
+#top nav ul li{
+  padding:0 35px 0 25px;
+  list-style: none;
+  font-size: 20px;
+  color: rgb(100, 104, 108);
+
+}
+#top nav ul li a{
+  color: rgb(100, 104, 108);
+  text-decoration: none;
+  
+  
+}
+#top ul li a:hover{
+  transition-duration:0.5s;
+  color:rgb(100, 104, 108);
+  text-shadow:1px 1px 1px  rgba(100, 104, 108, 0.404);
+  
+
+  
+ 
+  
+}
+#wellcome{
+ 
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  text-align: justify;
+  margin:0px 0px 80px 150px;
+  max-width: 1400px;
+  height: 400px;
+  padding:20px;
+ 
+}
+#wellcome img{
+  margin-right:100px;
+  width: 350px;
+  height: 350px;
+}
+#wellcome_text{
+  height: 400px;
+  width:400px;
+}
+#wellcome_text h2{
+  color: #3D61B1;
+}
+strong {
+  color: #3D61B1;
+}
+#wellcome h2{
+  font-size: 40px;
+}
+#wellcome p{
+  margin-top: 20px;
+  font-size: 30px;
+}
+#wellcome .paragrafos{
+  font-size: 18px;
+  color: rgb(100, 104, 108)
+}
+.paragrafos{
+  font-size: 18px;
+  color: rgb(100, 104, 108);
+  text-align: justify;
+}
+
+#wellcome button{
+  margin-top: 50px;
+  background-color: #3D61B1;
+  border-radius:4px;
+  padding:10px;
+  width: 180px;
+  border-style:none;
+  color: #FFFFFF;
+  font-size:20px;
+  cursor: pointer;
+}
+#pratice_yoga{
+  margin: auto;
+  width: 600px;
+  padding-bottom:60px;
+ 
+}
+#pratice_yoga h2{
+  font-size: 30px;
+  text-align:center;
+  margin-top:200px;
+  margin-bottom:30px;
+}
+#pratice_yoga p{
+  text-align: justify;
+  
+}
+#fitness{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+.fit{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 5px;
+  width: 250px;
+  height: 350px;
+  border-radius:15px;
+  background-color: #3d62b11c;
+  box-shadow:0px 0px 3px 1px rgba(0, 0, 0, 0.216);
+  
+
+}
+.fit img{
+  margin:0 auto;
+  margin-bottom: 30px;
+  width: 80px;
+  height:80px;
+}
+.fit h2{
+  font-size:18px;
+  text-align: center;
+  padding-bottom:30px;
+}
+.fit p{
+  padding-bottom: 30px;
+  text-align:center;
+  
+}
+
+#teacher{
+  padding-top: 100px;
+  text-align: center;
+  background-color: #203051;
+  height:400px;
+  
+  
+  
+}
+#teacher_text{
+  width: 600px;
+  margin: 0 auto;
+}
+#teacher_text p{
+  color: #FFFFFF;
+}
+#teacher h1{
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+#teacher_image{
+  margin-top:-20px;
+  background-color: #203051;
+  padding-bottom:100px;
+}
+#teacher article{
+  display: flex;
+  align-items: center;
+  width:800px;
+  margin-top:100px;
+  padding: 5px;
+  
+  
+  
+  
+}
+#teacher_image img{
+  width:400px;
+  height:250px;
+  
+ 
+}
+.prof_align{
+  display: flex;
+  flex-direction: row-reverse;
+  margin:80px auto 50px auto;
+}
+.prof_align p{
+  margin-right:20px;
+  color: #FFFFFF;
+}
+.prof_align_2{
+  display: flex;
+  margin:80px auto 50px auto;
+ 
+}
+.prof_align_2 p{
+  margin-left:20px;
+  color: #FFFFFF;
+}
+
+footer{
+  background-color: #FFFFFF;
+  height:200px;
+  
+}
+#contacts{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+#contact{
+  list-style:none;
+  
+}
+#contact ul li{
+  list-style:none;
+  margin:0 auto;
+  margin-bottom:15px;
+  
+} 
+#contact ul li a{
+  text-decoration: none;
+  color: rgb(100, 104, 108) ;
+  font-size:30px;
+}
+#contact ul li a:hover{
+  color: black;
+  transition-duration:1.2s;
+  
+}
+#menu ul li{
+  list-style:none;
+  margin-bottom:8px;
+  
+}
+#menu ul li a{
+  font-size:18px;
+  text-decoration: none;
+  color: rgb(100, 104, 108) ;
+  
+  
+}
+#menu ul li a:hover{
+  color:black;
+  transition-duration:1.2s;
+}
+#contact #social-media{
+  display: flex;
+  
+}
+#logo img{
+  width:80px;
+  height:80px;
+}
+#logo h2{
+  color: #3D61B1;
+  margin-bottom: 20px;
+}
+#developer{
+  border-top:1px solid rgba(100, 104, 108, 0.519);
+  background-color: #FFFFFF;
+  font-size:14px;
+}
+
+
+/*galery*/
+.galery{
+  background-color: #3D61B1;
+  margin:0 auto;
+  width:100%;
+  
+}
+.galery img{
+  display: flex;
+  flex-direction: row;
+  
+  width:400px;
+  height:300px;
+  
+}
+
+
+
+
+
+
+
 
     
     
