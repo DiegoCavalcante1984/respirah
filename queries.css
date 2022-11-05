@@ -12,7 +12,7 @@
     display: inline-block;
   }
   #top nav ul{
-    display:block;
+    display:none;
     margin:0 auto;
     
     
@@ -21,13 +21,13 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin:0 auto;
+    margin:-100px auto;
     width:100%;
   }
   #wellcome img{
     margin:0 auto;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
   }
   #wellcome_text{
     width:100%;
@@ -52,6 +52,7 @@
   }
   #pratice_yoga h2{
     font-size:25px;
+    padding-top: 100px;
   }
   .paragrafos{
     width:100%;
@@ -110,9 +111,14 @@
     text-align: center;
     
   }
+  #teacher_image{
+    margin-top:-20px;
+    background-color: #203051;
+    padding-bottom:30px;
+  }
   #teacher_image img{
     padding-top:10px;
-    width:90%;
+    width:100%;
     margin-bottom:20px;
   }
   #contacts{
