@@ -18,6 +18,9 @@ body{
   width:90%; 
   
 }
+.icon{
+  display: none;
+}
 #logo_top{
   display: flex;
   align-items: center;

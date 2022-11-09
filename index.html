@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="queries.css">
     <link rel ="stylesheet"  href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="shorcut icon" href="fotos/favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Respirah!</title>
 </head>
 <body>
@@ -15,14 +17,22 @@
     <main id="container">
        
         <header id="top">
+            <div class="icon" id="home">
+        
+                <span class="material-icons" id="icon" onclick="MenuClick()">menu</span>
+                
+            </div>
             <nav>
-                <ul>
-                     <li><a href="#">Sobre</a></li>
-                     <li><a href="#pratice_yoga">Pratique</a></li>
-                     <li><a href="#teacher">Professores</li>
-                     <li><a href ="#contacts">Contato</a></li>
-                     
-                </ul>
+              
+                <menu id="menu">
+                    <ul>
+                         <li><a href="#">Sobre</a></li>
+                         <li><a href="#pratice_yoga">Pratique</a></li>
+                         <li><a href="#teacher">Professores</li>
+                         <li><a href ="#contacts">Contato</a></li>
+                    
+                    </ul>
+                </menu>
             </nav>
             <div id="logo_top">
                 <h2>Respirah!</h2>
@@ -132,6 +142,7 @@
         
         
     </main>
-  
+  <script src="script.js"></script>
+
 </body>
 </html>
