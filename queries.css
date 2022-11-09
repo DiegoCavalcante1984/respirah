@@ -5,10 +5,23 @@
   desktops: 992px ate 1200px
   telas grandes: acima de 1200px*/
 
-@media(max-width:992px){
+@media(max-width:768px){
   nav{
-    display: none;
+   
+    display:block;
+    
+
   }
+ 
+  ul{
+    padding-top:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
   #container{
     text-align: center;
     background-color: #FFFFFF;
@@ -38,13 +51,19 @@
   }
   #top{
     margin-top:-30px;
-    display:block;
+  }
+  #top nav ul{
+    display: flex;
+    padding-bottom: 20px;
+    
+    
+  }
     
   }
   #menu{
     align-items: center;
-    display:block;
-    margin:0 auto;
+    
+    
     
     
   }
@@ -96,6 +115,7 @@
   }
   .fit{
     margin-bottom:30px;
+    
   }
   #teacher article{
     display: flex;
@@ -158,19 +178,143 @@
     flex-direction: column;
   }
 
-}
-/*@media (max-width:954px){
+
+@media(max-width:992px){
+  
+  #container{
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 0 auto; 
+    width:90%; 
+  } 
+ 
+ 
+  #logo_top{
+    
+    display:none;
+  }
+  #top{
+    margin-top:-30px;
+    display:block;
+    
+  }
+  #menu{
+    align-items: center;
+    display:block;
+    margin:0 auto;
+    
+    
+  }
   #wellcome{
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin:0px auto;
+    margin:-100px auto;
     width:100%;
-  } 
+  }
   #wellcome img{
     margin:0 auto;
-    width:300px;
-    height:300px;
-
+    width:230px;
+    height: 230px;
+  }
+  #wellcome_text{
+    width:100%;
+    text-align: center;
+    padding:0px 20px;
+    
+    
+   
+  }
+  #wellcome_text h2{
+    font-size: 25px;
+  }
+  #wellcome_text p{
+    font-size:18px;
+    
+  }
+  #pratice_yoga{
+    
+    width:100%;
+    padding:0px 20px;
+    text-align: center;
+  }
+  #pratice_yoga h2{
+    font-size:25px;
+    padding-top: 100px;
+  }
+  .paragrafos{
+    width:100%;
+    margin:0 auto;
 }
+  #fitness{
+    padding-top:50px;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .fit{
+    margin-bottom:30px;
+    width: 350px;
+  }
+  #teacher article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:90%;
+    margin-top:100px;
+    
+  }  
+
+  #teacher{
+    width:100%;
+    margin:0px auto;
+    
+  }
+  #teacher_text{
+    width:100%;
+    
+  }
+  #teacher_text h1{
+    text-align: center;
+    font-size:20px;
+    
+  }
+  #teacher_text p{
+    text-align: center;
+    padding:0 20px;
+    
+    
+    
+  }
+  #prof_align{
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+  }
+ 
+  #prof_align_2{
+    display: block;
+    width:100%;
+  }
+ 
+  #prof_align_2 p{
+    text-align: center;
+    
+  }
+  #teacher_image{
+    margin-top:-20px;
+    background-color: #203051;
+    padding-bottom:30px;
+  }
+  #teacher_image img{
+    padding-top:10px;
+    max-width:100%;
+    margin-bottom:20px;
+  }
+  #contacts{
+    height:100vh;
+    padding-top:30px;
+    flex-direction: column;
+  }
+
 }

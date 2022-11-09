@@ -10,7 +10,9 @@
 body{
   background-color:#071329;
 }
-
+.icon{
+  display: none;
+}
 
 #container{
   background-color: #FFFFFF;
@@ -18,18 +20,16 @@ body{
   width:90%; 
   
 }
-.icon{
-  display: none;
-}
 #logo_top{
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-right:30px;
   margin-bottom: 20px;
- 
-  
 }
+
+  
+
 #logo_top img{
   width: 60px;
   height:60px;
@@ -54,9 +54,8 @@ body{
   
 }
 #top nav ul{
-  display: flex;
-  margin-left: 150px;
-  padding-bottom: 20px;
+  display:flex;
+  padding-bottom:-30;
   
   
 }
